@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.hero {
+  padding: 60px;
+  background: #f4f4f4;
+  text-align: center;
+}
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 40px;
+}
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+form button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
